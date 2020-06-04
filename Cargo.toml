@@ -1,0 +1,16 @@
+[package]
+name = "mkl82z7-pac-example"
+version = "0.1.0"
+authors = ["Sindre Hansen <sindrehansen92@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+panic-halt = "0.2.0"
+cortex-m-rt = "0.6.12"
+
+[dependencies.mkl82z7-pac]
+version = "0.1.0"
+path = "../mkl82z7-pac"
+features = ["rt"]
