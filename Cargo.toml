@@ -1,6 +1,6 @@
 [package]
 name = "mkl82z7-pac-example"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sindre Hansen <sindrehansen92@gmail.com>"]
 edition = "2018"
 
@@ -8,9 +8,9 @@ edition = "2018"
 
 [dependencies]
 panic-halt = "0.2.0"
-cortex-m-rt = "0.6.12"
+cortex-m-rt = "0.7.0"
 
 [dependencies.mkl82z7-pac]
-version = "0.1.0"
+version = "0.1.1"
 path = "../mkl82z7-pac"
 features = ["rt"]
